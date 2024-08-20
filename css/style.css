@@ -78,7 +78,7 @@ h1{
 
 /* fim do sobre*/
 /*Inicio especialidades*/
-#direito-familia,#direito-consumidor,#conciliacao-juridica,#direito-trabalhista,#direito-civil{
+#direito-familia,#direito-consumidor,#direito-previdenciario,#direito-trabalhista,#direito-civil{
     margin: 10px 5px;
     height: 400px;
    
@@ -105,8 +105,8 @@ h1{
     background-repeat: no-repeat; 
 
 }
-#conciliacao-juridica{
-    background-image: url("../img/conciliacao.jpg");
+#direito-previdenciario{
+    background-image: url("../img/direito-previdenciario.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat; 
