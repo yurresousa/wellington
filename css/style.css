@@ -65,14 +65,12 @@ header #menu-header ul li a:hover{
 /* fim banner principal*/
 
 /*Inicio so sobre*/
-#sobre{
-    background:url("https://media.istockphoto.com/id/1040250650/pt/foto/white-studio-background.jpg?s=612x612&w=0&k=20&c=wg2BMh9u6EYazhG4JOhXJQEdYfjwOZgzXKB8MO4tRFg=") no-repeat cover;
-}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #2a2e31; 
 }
-#sobre p{
+#sobre-advogado-direito-civil-maranhao p{
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #02131f;
