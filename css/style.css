@@ -1,0 +1,156 @@
+/*small devices*/
+@media(min-width:768px){
+    .border-left{
+        border-left: 1px solid white  ;
+    }
+    
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+/* inicio topo*/
+.logo-whatsap{
+    position: fixed; 
+    z-index: 1;
+    bottom: 10px;
+    right: 8px;
+}
+#topo{
+    font-size: 0.9em;
+    background-color: #02131f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-bottom: 1px solid #7f7f7f;
+}
+#topo ul li a{
+    color: #ccc;
+}
+#topo ul li a:hover{
+    color: white;
+}
+
+/* fim topo*/
+/* inicio do header*/
+header{
+    
+    background-color: #02131f;
+}
+ .img-painel{
+    filter: grayscale(25%); 
+}
+ header #menu-header ul li a{
+    font-size: 1em;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+header #menu-header ul li a:hover{
+   background-color: rgb(188, 188, 188);
+   color: #2a2e31;
+}
+
+/*Fim do header*/
+/* inicio banner-prinicipal*/
+
+#carousel-principal {
+ z-index: 0;
+    
+}
+
+/* fim banner principal*/
+
+/*Inicio so sobre*/
+#sobre{
+    background:url("https://media.istockphoto.com/id/1040250650/pt/foto/white-studio-background.jpg?s=612x612&w=0&k=20&c=wg2BMh9u6EYazhG4JOhXJQEdYfjwOZgzXKB8MO4tRFg=") no-repeat cover;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a2e31; 
+}
+#sobre p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #02131f;
+}
+
+/* fim do sobre*/
+/*Inicio especialidades*/
+#direito-familia,#direito-consumidor,#conciliacao-juridica,#direito-trabalhista,#direito-civil{
+    margin: 10px 5px;
+    height: 400px;
+   
+}
+#direito-civil{
+    background-image: url("../img/civil.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+     
+}
+#direito-trabalhista{
+    background-image: url("../img/trabalhista.jpg");
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    
+}
+#direito-consumidor{
+
+    background-image: url("../img/consumidor.jpg");
+    background-size:cover;
+    background-repeat: no-repeat; 
+
+}
+#conciliacao-juridica{
+    background-image: url("../img/conciliacao.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
+}
+#direito-familia{
+    background-image:url("../img/familia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#especialidades h3{
+
+    margin-top:260px ;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: #02131f75;
+    padding: 5px;
+}
+
+#especialidades h3:hover{
+    background-color: #02131f;
+    
+}
+
+/*Fim especialidades*/
+/* inicio fale-conosco*/
+#fale-conosco{
+    background-size: cover;
+    padding: 30px;
+}
+#fale-conosco p{
+    color: #02131f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Fim fale-conosco*/
+
+/* Inicio footer*/
+#copyright{
+    background-color: #02131f;
+    font-size: 0.8em;
+}
+/* Fim footer*/
